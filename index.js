@@ -10,22 +10,6 @@ const description =
 What's new 
 1. bugs fixed 
 2. dark mode enabled
-1. bugs fixed 
-2. dark mode enabled
-1. bugs fixed 
-2. dark mode enabled
-1. bugs fixed 
-2. dark mode enabled
-1. bugs fixed 
-2. dark mode enabled
-1. bugs fixed 
-2. dark mode enabled
-1. bugs fixed 
-2. dark mode enabled
-1. bugs fixed 
-2. dark mode enabled
-1. bugs fixed 
-2. dark mode enabled
 `;
 
 let version = {
