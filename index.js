@@ -6,7 +6,7 @@ app.use(express.json());
 
 let version = {
     "version":"1.0.0",
-    "description":"1. bugs fixed \n2. dark mode enabled",
+    "description":"We just made follege app cooler for you.\n\nWhat's new \n\n1. bugs fixed \n\n2. dark mode enabled",
     "forceUpdate":false
 };
 
