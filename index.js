@@ -13,9 +13,9 @@ What's new
 `;
 
 let version = {
-    "version":"1.0.0",
+    "version":"2.2.2",
     "description":description,
-    "forceUpdate":false
+    "forceUpdate":true
 };
 
 app.get("/", (req, res)=>{
