@@ -7,7 +7,7 @@ app.use(express.json());
 let version = {
     "version":"1.0.0",
     "description":"1. bugs fixed \n2. dark mode enabled",
-    "forceUpdate":true
+    "forceUpdate":false
 };
 
 app.get("/", (req, res)=>{
