@@ -15,7 +15,7 @@ What's new
 let version = {
     "version":"2.2.2",
     "description":description,
-    "forceUpdate":true
+    "forceUpdate":false
 };
 
 app.get("/", (req, res)=>{
