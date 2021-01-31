@@ -1,9 +1,8 @@
 const express = require('express');
 
 const app = express();
-const port = 3000;
 
-app.listen(port, ()=>{console.log(`server listening at port ${port}`)});
+app.use(express.json());
 
 let version = {
     "version":"1.0.0",
@@ -19,3 +18,7 @@ app.get("/version", (req, res)=>{
     res.json(version);
 });
 
+
+
+const port = process.env.PORT || '3000';
+app.listen(port, ()=>{console.log(`Server started at port ${port}`)});
