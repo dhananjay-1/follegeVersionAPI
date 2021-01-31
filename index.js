@@ -4,9 +4,33 @@ const app = express();
 
 app.use(express.json());
 
+const description = 
+`We just made follege app cooler for you.
+
+What's new 
+1. bugs fixed 
+2. dark mode enabled
+1. bugs fixed 
+2. dark mode enabled
+1. bugs fixed 
+2. dark mode enabled
+1. bugs fixed 
+2. dark mode enabled
+1. bugs fixed 
+2. dark mode enabled
+1. bugs fixed 
+2. dark mode enabled
+1. bugs fixed 
+2. dark mode enabled
+1. bugs fixed 
+2. dark mode enabled
+1. bugs fixed 
+2. dark mode enabled
+`;
+
 let version = {
     "version":"1.0.0",
-    "description":"We just made follege app cooler for you.\n\nWhat's new \n\n1. bugs fixed \n\n2. dark mode enabled",
+    "description":description,
     "forceUpdate":false
 };
 
