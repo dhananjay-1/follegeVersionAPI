@@ -11,6 +11,10 @@ let version = {
     "forceUpdate":true
 };
 
+app.get("/", (req, res)=>{
+    res.send("Welcome to follege version api");
+})
+
 app.get("/version", (req, res)=>{
     res.json(version);
 });
