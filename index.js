@@ -8,12 +8,13 @@ const description =
 `We just made follege app cooler for you.
 
 What's new 
-1. bugs fixed 
-2. dark mode enabled
+1. Bugs fixed 
+2. Push Notifications enabled
+3. App performance optimized
 `;
 
 let version = {
-    "version":"2.2.2",
+    "version":"1.0.1",
     "description":description,
     "forceUpdate":false
 };
