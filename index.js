@@ -14,7 +14,7 @@ What's new
 `;
 
 let version = {
-    "version":"1.0.1",
+    "version":"1.0.2",
     "description":description,
     "forceUpdate":false
 };
